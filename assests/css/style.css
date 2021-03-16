@@ -18,26 +18,7 @@ header {
 header h1 {
     display: inline-flex;
     background-color: var(--aqua);
-    
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--dark-blue);
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--white);
-    margin-right: 20px;
-    font-size: 20px;
-    border-bottom: 5px solid var(--aqua);
-}
-
-nav a:hover {
-    border-bottom: 5px solid var(--pink);
-
+    flex-wrap: wrap;
 }
 
 body {
@@ -45,13 +26,27 @@ body {
     color: var(--dark-blue);
 }
 
-footer {
-    text-align: left;
-    font-size: 30px;
+/* Class */
+.links {
     display: flex;
+    justify-content: flex-end;
+    background-color: var(--dark-blue);
 }
 
-/* Class */
+.links a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+    margin-right: 20px;
+    font-size: 20px;
+    border-bottom: 5px solid var(--aqua);
+}
+
+.links a:hover {
+    border-bottom: 5px solid var(--pink);
+
+}
+
 .background {
     height: 225px;
     width: 100%;
@@ -71,8 +66,9 @@ footer {
     background-color: var(--dark-blue);
 }
 
-.contact {
-    display: flex;
-    justify-content: flex-end;
-}
 /* ID */
+@media screen and (max-width: 874px) {
+    header h1 {
+       background-color: initial;
+    }
+}
