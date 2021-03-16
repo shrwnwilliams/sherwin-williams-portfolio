@@ -1,7 +1,45 @@
 /* Universal */
-
+:root {
+    --background-top: #2b2d42;
+    --font-color-top: #f7f7f9;
+    --background-color-bot: #f7f7f9;
+    --font-color-bot: #2b2d42;
+}
 /* Element */
+header {
+    padding: 20px;
+    text-align: left;
+    background-color: var(--background-top);
+    color: var(--font-color-top);
+    font-size: 40px;
+    /* width: 100vw; */
+}
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--background-top);
+}
+
+header h1 {
+    /* font-size: 40px; */
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color-top);
+    margin: 10px;
+}
 /* Class */
-
+.background {
+    height: 225px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+}
 /* ID */
