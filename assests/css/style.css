@@ -1,39 +1,56 @@
 /* Universal */
 :root {
-    --background-top: #2b2d42;
-    --font-color-top: #f7f7f9;
-    --background-color-bot: #f7f7f9;
-    --font-color-bot: #2b2d42;
+    --dark-blue: #2b2d42;
+    --pink: #e86a92;
+    --yellow: #f7e733;
+    --white: #f7f7f9;
+    --aqua: #41e2ba;
 }
 /* Element */
 header {
-    padding: 20px;
+    height: 143px;
     text-align: left;
-    background-color: var(--background-top);
-    color: var(--font-color-top);
+    background-color: var(--dark-blue);
+    color: var(--white);
     font-size: 40px;
-    /* width: 100vw; */
+}
+
+header h1 {
+    display: inline-flex;
+    background-color: var(--aqua);
+    
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--background-top);
+    background-color: var(--dark-blue);
 }
 
-header h1 {
-    /* font-size: 40px; */
-}
-
-li {
-    list-style-type: none;
-}
-
-a {
+nav a {
     text-decoration: none;
-    color: var(--font-color-top);
-    margin: 10px;
+    color: var(--white);
+    margin-right: 20px;
+    font-size: 20px;
+    border-bottom: 5px solid var(--aqua);
 }
+
+nav a:hover {
+    border-bottom: 5px solid var(--pink);
+
+}
+
+body {
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+
+footer {
+    text-align: left;
+    font-size: 30px;
+    display: flex;
+}
+
 /* Class */
 .background {
     height: 225px;
@@ -41,5 +58,21 @@ a {
     margin-bottom: 30px;
     background-image: url(../images/background.png);
     background-repeat: repeat;
+}
+
+.background h2 {
+    display: inline;
+    position: absolute;
+    font-size: 32px;
+    top: 350px;
+    right: 35px;
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--dark-blue);
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
 }
 /* ID */
