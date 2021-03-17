@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    border: 5px solid black;
+    height: 200px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+section {
+    flex: 1 2 400px;
+    border: 2px solid blue;
+    height: 100px;
+    width: 50px
+}

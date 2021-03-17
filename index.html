@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Sherwin's Portfolio!</title>
-    <!-- <link href= "./assests/css/normalize.css" rel="stylesheet" /> -->
+    <link href= "./assests/css/normalize.css" rel="stylesheet" />
     <link href= "./assests/css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <!--Header-->
-    <header>
-      <h1>Sherwin James Williams</h1>
-    </header>
-    <!--Nav bar-->
+    <!--Header and Nav bar-->
+    <header class="header-flexbox">
+      <h1 class="header-flexbox-item-1">Sherwin James Williams</h1>
       <nav class="links">
         <ul>
-          <a href="#about-me">About Me</a>
-          <a href="#my-work">My Work</a>
-          <a href="#contact">Contact Me</a>
-          <a href="#resume">Resume</a>
+          <a href="#about-me"  class="header-flexbox-item-2">About Me</a>
+          <a href="#my-work" class="header-flexbox-item-2">My Work</a>
+          <a href="#contact" class="header-flexbox-item-2">Contact Me</a>
+          <a href="#resume" class="header-flexbox-item-2">Resume</a>
         </ul>
       </nav>
+    </header>
     <!--cool image-->
     <section class="background">
       <h2>Through effort, anything is possible.</h2>
@@ -29,9 +28,9 @@
     <!--Main section-->
     <main>
       <section class="about-me">
-        <h2 id="about-me" class="side">About Me</h2>
-        <mark class="vertical-line"></mark>
-        <p>
+        <img href="" class="about-me-pic"/>
+        <h2 class="about-me-head" id="about-me">About Me</h2>
+        <p class="about-me-content">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
           voluptate maiores repudiandae perspiciatis molestiae esse,
           necessitatibus nemo dolorem inventore nostrum ut neque enim quia illo
@@ -54,7 +53,7 @@
       </section>
 
       <section>
-        <h2 id="my-work" class="side">My Work</h2>
+        <h2 id="my-work">My Work</h2>
         <img />
         <img />
         <img />
@@ -68,7 +67,7 @@
 
         <footer>
           <nav class="contacts">
-            <p>315-372-0810</p>
+            <a href="tel:1-315-372-0810">315-372-0810</a>
             <a href="mailto:shrwnwilliams@gmail.com">shrwnwilliams@gmail.com</a>
             <a href="https://github.com/shrwnwilliams" target="blank">Github</a>
             <a href="https://www.linkedin.com/in/sherwin-williams-08981a207/" target="blank">LinkedIn</a>

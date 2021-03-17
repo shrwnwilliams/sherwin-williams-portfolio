@@ -11,8 +11,10 @@ header {
     height: 143px;
     text-align: left;
     background-color: var(--dark-blue);
+    background-size: 10px;
     color: var(--white);
-    font-size: 40px;
+    font-size: 60px;
+
 }
 
 header h1 {
@@ -21,6 +23,7 @@ header h1 {
     flex-wrap: wrap;
     padding-right: 10px;
     padding-left: 10px;
+
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -34,10 +37,36 @@ body {
 }
 
 /* Class */
+.about-me {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.about-me-head {
+    margin-bottom: 32px;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 30px;
+    border-right: 10px solid var(--dark-blue);
+    height: 360px;
+    flex: 1 1 350px;
+}
+
+.about-me-content {
+    flex: 1 1 650px;
+    padding-left: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 37px;
+}
+
 .links {
     display: flex;
     justify-content: flex-end;
     background-color: var(--dark-blue);
+    padding-bottom: 10px;
 }
 
 .links a {
@@ -71,24 +100,25 @@ body {
     display: inline;
     position: absolute;
     font-size: 32px;
-    top: 350px;
-    right: 35px;
+    top: 300px;
+    right: 0px;
     padding: 10px;
     color: var(--white);
     background-color: var(--dark-blue);
 }
 
-.side {
-    margin-bottom: 32px;
-    font-family: sans-serif;
-    font-size: 40px;
-    text-align: left;
-    padding-left: 200px;
+/* ID */
+@media screen and (max-width:662px) {
+    .about-me {
+        flex-direction: column;
+    }
 }
 
-/* ID */
-@media screen and (max-width: 874px) {
-    header h1 {
-       background-color: initial;
+@media screen and (max-width:662px) {
+    .about-me-head {
+        border-right: 0px;
+        border-bottom: 10px solid var(--dark-blue);
+        text-align: center;
+        flex-basis: 150px;
     }
 }
