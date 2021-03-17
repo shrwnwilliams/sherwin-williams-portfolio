@@ -39,7 +39,7 @@ body {
 /* Class */
 .about-me {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space;
     margin-bottom: 30px;
 }
 
@@ -51,7 +51,7 @@ body {
     padding-right: 30px;
     border-right: 10px solid var(--dark-blue);
     height: 360px;
-    flex: 1 1 350px;
+    flex: 1 1 0px;
 }
 
 .about-me-content {
@@ -62,11 +62,19 @@ body {
     line-height: 37px;
 }
 
+.about-me-face {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-left: 100px;
+}
+
 .links {
     display: flex;
     justify-content: flex-end;
     background-color: var(--dark-blue);
     padding-bottom: 10px;
+    flex: 1 1 0px;
 }
 
 .links a {
@@ -81,11 +89,6 @@ body {
 .links a:hover {
     border-bottom: 5px solid var(--pink);
 
-}
-
-.about-me .vertical-line {
-    display: inline;
-    border-left: thick solid var(--dark-blue);
 }
 
 .background {
