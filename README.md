@@ -4,7 +4,7 @@ This is my finalized portfolio website. Prospective employers can easily navigat
 - See examples of my work with the links provided
 - Easily access both my resume and several forms of contact
 
-![Portfolio  Site](.\assests\images\deployed-site.png)
+![Portfolio  Site](assests/images/deployed-site.png)
 
 # Deployed Site
 Here is the link to the deployed site.
