@@ -31,17 +31,9 @@ body {
     color: var(--dark-blue);
 }
 
-/* aside {
-    flex: 1;
-    background-color: #b9c6ae;
-    padding: 80px;
-    text-align: center;
-} */
-
 /* Class */
 .about-me {
     display: flex;
-    justify-content: space;
     margin-bottom: 30px;
 }
 
@@ -198,6 +190,34 @@ body {
     color: var(--dark-blue);
 }
 
+.contact-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts {
+    /* margin-bottom: 32px; */
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 30px;
+    border-right: 10px solid var(--dark-blue);
+    flex: 6 2 0;
+}
+
+.contact-info {
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+    color: var(--dark-blue);
+    border-bottom: 5px solid var(--aqua);
+    flex: 1 2 0;
+}
+
+.contact-info:hover {
+    border-bottom: 5px solid var(--pink);
+}
 /* ID */
 @media screen and (max-width:1200px) {
     .about-me-face {
@@ -225,6 +245,20 @@ body {
         justify-content: center;
         width: 500px;
         margin-left: 300px;
+        border-bottom: 10px solid var(--dark-blue);
+    }
+}
+
+@media screen and (max-width:983px) {
+    .contact-footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:983px) {
+    .contacts {
+        text-align: center;
+        border-right: none;
         border-bottom: 10px solid var(--dark-blue);
     }
 }
