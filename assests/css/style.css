@@ -1,4 +1,4 @@
-/* Universal */
+/*
 :root {
     --dark-blue: #2b2d42;
     --pink: #e86a92;
@@ -6,7 +6,7 @@
     --white: #f7f7f9;
     --aqua: #41e2ba;
 }
-/* Element */
+
 header {
     height: 143px;
     text-align: left;
@@ -31,7 +31,7 @@ body {
     color: var(--dark-blue);
 }
 
-/* Class */
+
 .about-me {
     display: flex;
     margin-bottom: 30px;
@@ -84,15 +84,16 @@ body {
     border-bottom: 5px solid var(--pink);
 
 }
-
+*/
 .background {
-    height: 225px;
+    height: 400px;
     width: 100%;
     margin-bottom: 30px;
-    background-image: url(../images/background.png);
-    background-repeat: repeat;
+    background-image: url(../images/sherwin-headshot-1.png);
+    background-repeat:no-repeat;
+    background-position: center;
 }
-
+/*
 .background h2 {
     display: inline;
     position: absolute;
@@ -196,7 +197,7 @@ body {
 }
 
 .contacts {
-    /* margin-bottom: 32px; */
+
     font-family: sans-serif;
     font-size: 40px;
     text-align: right;
@@ -218,7 +219,7 @@ body {
 .contact-info:hover {
     border-bottom: 5px solid var(--pink);
 }
-/* ID */
+
 @media screen and (max-width:1200px) {
     .about-me-face {
         display: none;
@@ -294,3 +295,9 @@ body {
         flex-basis: 100px;
     }
 }
+*/
+/* 
+#nav-bar {
+    height: 100px;
+    
+} */

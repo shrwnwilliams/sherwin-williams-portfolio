@@ -5,32 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Sherwin's Portfolio!</title>
-    <link href= "./assests/css/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link href= "./assests/css/normalize.css" rel="stylesheet" /> -->
     <link href= "./assests/css/style.css" rel="stylesheet" />
   </head>
   <body>
     <!--Header and Nav bar-->
-    <header>
-      <h1>Sherwin James Williams</h1>
-      <nav class="links">
-        <ul>
-          <a href="#about-me"  class="top-links">About Me</a>
-          <a href="#my-work" class="top-links">My Work</a>
-          <a href="#contact" class="top-links">Contact Me</a>
-          <a href="https://drive.google.com/file/d/1po010mmQC0JZJWGmxIqeJZQ2g3nFksJe/view?usp=sharing" target="blank" class="top-links">Resume</a>
+    <header class="container-fluid">
+      <h1 class="text-center">Sherwin James Williams</h1>
+      <nav id="nav-bar" class="nav justify-content-center">
+        <ul class="nav justify-content-center border-bottom border-info mb-4">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Resume</a>
+          </li>
         </ul>
       </nav>
     </header>
     <!--cool image-->
-    <section class="background">
-      <h2>Through effort, anything is possible.</h2>
+     <section class="background center">
     </section>
-    <!--Main section-->
+    <!-- <--Main section--> 
+    
     <main>
-      <section class="about-me">
-        <img src="./assests/images/sherwin-headshot-1.jpg" class="about-me-face" alt="a headshot of sherwin" />
-        <h2 class="about-me-head" id="about-me">About Me</h2>
-        <p class="about-me-content">
+      <section class="container text-center">
+        <div class="border-bottom border-info">
+        <h2 class="text-center mb-2">About Me</h2>
+      </div>
+        <p class="text-center pt-2">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
           voluptate maiores repudiandae perspiciatis molestiae esse,
           necessitatibus nemo dolorem inventore nostrum ut neque enim quia illo
@@ -52,7 +62,7 @@
         </p>
       </section>
 
-      <section class="my-work">
+     <!-- <section class="my-work">
         <h2 id="my-work" class="my-work-head">My Work</h2>
         <div class="box-1"><img src="./assests/images/horiseon-refactor-1.png" alt="the home page of Horiseon" /><a class="horiseon-link" href="https://github.com/shrwnwilliams/horiseon-code-refactor" target="blank">Horiseon Code Refactor</a></div>
       </section>
@@ -79,7 +89,7 @@
             <a class="contact-info" href="https://github.com/shrwnwilliams" target="blank">Github</a>
             <a class="contact-info" href="https://www.linkedin.com/in/sherwin-williams-08981a207/" target="blank">LinkedIn</a>
           </nav>
-        </footer>
+        </footer> -->
     </main>
   </body>
 </html>
