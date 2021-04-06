@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Sherwin's Portfolio!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- <link href= "./assests/css/normalize.css" rel="stylesheet" /> -->
-    <link href= "./assests/css/style.css" rel="stylesheet" />
+    <link href="./assests/css/style.css" rel="stylesheet" />
   </head>
   <body>
     <!--Header and Nav bar-->
@@ -16,10 +21,10 @@
       <nav id="nav-bar" class="nav justify-content-center">
         <ul class="nav justify-content-center border-bottom border-info mb-4">
           <li class="nav-item">
-            <a class="nav-link text-info" href="#">About Me</a>
+            <a class="nav-link text-info" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-info" href="#">My Work</a>
+            <a class="nav-link text-info" href="#my-work">My Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-info" href="#">Contact Me</a>
@@ -31,16 +36,15 @@
       </nav>
     </header>
     <!--cool image-->
-     <section class="background center">
-    </section>
-    <!-- <--Main section--> 
-    
+    <section class="background center"></section>
+    <!-- <--Main section-->
+
     <main>
       <section class="container text-center">
         <div class="border-bottom border-info">
-        <h2 class="text-center mb-2">About Me</h2>
-      </div>
-        <p class="text-center pt-2">
+          <h2 class="text-center mb-3" id="about-me">About Me</h2>
+        </div>
+        <p class="text-center pt-3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
           voluptate maiores repudiandae perspiciatis molestiae esse,
           necessitatibus nemo dolorem inventore nostrum ut neque enim quia illo
@@ -62,11 +66,22 @@
         </p>
       </section>
 
-     <!-- <section class="my-work">
-        <h2 id="my-work" class="my-work-head">My Work</h2>
-        <div class="box-1"><img src="./assests/images/horiseon-refactor-1.png" alt="the home page of Horiseon" /><a class="horiseon-link" href="https://github.com/shrwnwilliams/horiseon-code-refactor" target="blank">Horiseon Code Refactor</a></div>
+      <section class="container">
+        <div class="border-bottom border-info">
+          <h2 id="my-work" class="text-center mb-3">My Work</h2>
+        </div>
+        <div class="box-1">
+          <a class="text-center nav-link"
+            href="https://vharris113.github.io/poketrade/index.html"
+            target="blank"
+            ><h1 class="mt-3">PokéTrade.io</h1></a
+          >
+          <img class="img-fluid mt-3"
+            src="./assests/images/poketrade.png"
+            alt="the home page of Horiseon" />
+        </div>
       </section>
-       <section class="my-work-small">
+      <!--  <section class="my-work-small">
         <div class="box-2"><img src="./assests/images/website-screenshot-1.png" alt="the home page of roll20" /><p>Lorem, ipsum.</p></div>
         <div class="box-2"><img src="./assests/images/website-screenshot-2.png" alt="the home page of google" /><p>Lorem, dolor.</p></div>
       </section>
